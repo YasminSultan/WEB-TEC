@@ -22,14 +22,20 @@
         <td><input type="text"  id="m" name="un"></td>
         </tr>
         <tr>   
-        <td>Password: </td>
-        <td><input type="password"  id="p" name="password"></td>
+        <td>Current Password: </td>
+        <td><input type="pssword"  id="p" name="current password"></td>
+         </tr>
+    
+        <tr>   
+        <td>NEW Password: </td>
+        <td><input type="p@ssword"  id="p" name="new password"></td>
          </tr>
          <tr>   
-        <td>Confirm Password: </td>
-        <td><input type="password"  id="cp" name="confirmPassword"></td>
+        <td>Retype New Password: </td>
+        <td><input type="p@ssword"  id="cp" name="retypenewPassword"></td>
         </tr>
          <tr>
+    
     <td>Gender <br>
     <input type="radio" id="male" name="gender" value="male">
     Male
