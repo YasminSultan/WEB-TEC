@@ -59,7 +59,24 @@
         <?php echo $passV ?><br>
         <label for="cpassword">Confirm Password</label>
         <input type="password" name="cpassword"> <br>
+
+
+
         <?php echo $cpassV ?><br>
+
+        <td>Gender <br>
+    <input type="radio" id="male" name="gender" value="male">
+    Male
+    <input type="radio" id="female" name="gender" value="female">
+    Female
+    <input type="radio" id="other" name="gender" value="other">
+    Other</td>
+    </tr>      
+    <tr>
+    <td>Date of Birth <br>  
+    <input type="date" id="birthday" name="birthday"></td>
+    </tr> 
+
         <input type="submit" value="submit">
     </form>
 </body>
